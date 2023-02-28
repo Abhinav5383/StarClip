@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper{
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.wrapper .symbol{
+  width: 95%;
+  height: 90%;
+  background: #222;
+  clip-path: polygon(50% 0%, 61% 39%, 100% 39%, 68% 59%, 81% 100%, 50% 77%, 19% 100%, 32% 59%, 0% 39%, 38% 39%);
+}
+
+.wrapper .container{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #DDD;
+  display: flex;
+  justify-content: center;
+}
